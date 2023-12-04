@@ -1,0 +1,12 @@
+.nav-item{
+    cursor: pointer;
+    border: 1px solid gainsboro;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.nav-item:hover{
+    border: none;
+    
+}

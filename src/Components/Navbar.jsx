@@ -1,4 +1,4 @@
-
+import './Navbar.css'
 
 const Navbar = ({setCategory}) => {
   return (
@@ -12,7 +12,7 @@ const Navbar = ({setCategory}) => {
       <ul className="navbar-nav">
         
         <li className="nav-item">
-          <div className="nav-link" onClick={()=>setCategory("technology")}>Technology</div>
+          <div className="nav-link"  onClick={()=>setCategory("technology")} >Technology</div>
         </li>
 
         <li className="nav-item">
